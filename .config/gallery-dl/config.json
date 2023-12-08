@@ -1,0 +1,6 @@
+{
+	"extractor":
+	{
+		"base-directory": "~/mystuff/gallery-dl/"
+	}
+}
