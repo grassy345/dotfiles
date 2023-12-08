@@ -1,0 +1,18 @@
+# Output template for downloaded files
+-o "~/mystuff/yt-dlp/%(title)s - %(uploader)s.%(ext)s"
+
+# Automatically select the best video and best audio
+-f "bestvideo+bestaudio"
+
+# Embed subtitles in the downloaded video file
+--embed-subs
+--convert-subs "ass"
+
+# Embed the thumbnail image of the video in the downloaded file
+--embed-thumbnail
+
+# Add metadata information to the downloaded file
+--add-metadata
+
+# Preferred file formats in order (mkv, mp4, webm)
+--merge-output-format "mkv/mp4/webm"
