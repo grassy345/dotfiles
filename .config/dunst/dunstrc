@@ -1,0 +1,15 @@
+[global]
+origin = bottom-right
+
+[urgency_low]
+    background = "#0c0f10"
+    foreground = "#b3b9b3"
+    frame_color = "#b3b9b3"
+[urgency_normal]
+    background = "#0c0f10"
+    foreground = "#b3b9b3"
+    frame_color = "#b3b9b3"
+[urgency_critical]
+    background = "#0c0f10"
+    foreground = "#b3b9b3"
+    frame_color = "#b3b9b3"
